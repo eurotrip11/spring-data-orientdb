@@ -26,7 +26,7 @@ public class SimpleOrientObjectRepository<T> extends SimpleOrientRepository<T> i
     public SimpleOrientObjectRepository(OrientObjectOperations operations, Class<T> domainClass, Class<?> repositoryInterface) {
         super(operations, domainClass, repositoryInterface);
     }
-    
+
     public SimpleOrientObjectRepository(OrientObjectOperations operations, Class<T> domainClass, String cluster, Class<?> repositoryInterface) {
         super(operations, domainClass, cluster, repositoryInterface);
     }

@@ -33,15 +33,15 @@ public class SimpleOrientRepository<T> implements OrientRepository<T> {
 
     /** The orient operations. */
     protected final OrientOperations<T> operations;
-    
+
     /** The domain class. */
     protected final Class<T> domainClass;
-    
+
     protected final String source;
-    
+
     /** The repository interface. */
     protected final Class<?> repositoryInterface;
-    
+
     private final OrientStrategy<T> strategy;
 
     /**
